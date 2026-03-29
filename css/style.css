@@ -18,6 +18,53 @@ section {
 img {
     max-width: 100%;
 }
+
+header {
+    background-color: #022B3A;
+    padding: 15px;
+    text-align: center;
+}
+
 #hero {
     text-align: center;
+    background-image: url("../img/vallisneria-1536w.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#hero div{
+    background-color: #022B3A;
+    padding: 15px;
+    margin: 15px;
+}
+#services {
+    padding: 15px;
+}
+.service {
+    background-color: #1F7A8C;
+    color: #E1E5F2;
+    padding: 15px;
+    margin: 20px;
+}
+.service img {
+    display: block;
+    margin: 0 auto;
+}
+
+#reviews {
+    background-image: url("../img/moss-1536w.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.review {
+    background-color: #022B3A;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #022B3A;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
 }
