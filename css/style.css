@@ -1,3 +1,23 @@
 body {
-    background-color: red;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0B3C49;
+    color: #E1E5F2;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+h1 {
+    font-size: 60pt;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+section {
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+}
+#hero {
+    text-align: center;
 }
