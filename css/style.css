@@ -4,7 +4,6 @@ body {
     background-color: #0B3C49;
     color: #E1E5F2;
 }
-
 h1, h2, h3 {
     margin-top: 0;
 }
@@ -14,52 +13,94 @@ h1 {
 }
 section {
     padding: 20px;
+    border: 3px solid #1F7A8C;
+    margin: 15px;
 }
 img {
     max-width: 100%;
 }
-
 header {
     background-color: #022B3A;
     padding: 15px;
     text-align: center;
 }
-
 #hero {
     text-align: center;
     background-image: url("../img/vallisneria-1536w.jpg");
     background-size: cover;
     background-position: center;
 }
-#hero div{
-    background-color: #022B3A;
+.hero-wrap{
+    background-color: #0B3C49;
+    border: 3px solid #022B3A;
+    border-radius: 20px;
     padding: 15px;
     margin: 15px;
 }
-#services {
+.hero-bio{
+    background-color: #022B3A;
+    border: 3px solid #0B3C49;
     padding: 15px;
+    margin: 15px;
+}
+#services h2{
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+    background-color: #022B3A;
+    border: 3px solid #1F7A8C;
+    margin:0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#services {
+    background-color: #0B3C49;
+}
+.service h3{
+    color: #BFDBF7;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 .service {
     background-color: #1F7A8C;
     color: #E1E5F2;
     padding: 15px;
     margin: 20px;
+    border: 2px solid #BFDBF7;
 }
 .service img {
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid #BFDBF7;
+    border-radius: 10px;
 }
-
 #reviews {
     background-image: url("../img/moss-1536w.jpg");
     background-size: cover;
     background-position: center;
+    text-align: center;
 }
+.review-head h2{
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+.review-head{
+    background-color: #022B3A;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #BFDBF7;
+    border-radius: 5px;
+    display: inline-block;
 
+}
+.review h3{
+    color:gold;
+}
 .review {
     background-color: #022B3A;
     padding: 15px;
-    margin-bottom: 15px;
+    margin: 30px;
+    border: 2px solid #BFDBF7;
+    text-align: left;
 }
 
 footer {
@@ -67,4 +108,5 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 0.9rem;
+    margin-top: 20px;
 }
