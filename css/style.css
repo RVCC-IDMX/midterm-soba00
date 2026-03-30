@@ -109,7 +109,6 @@ header {
     border: 2px solid #BFDBF7;
     text-align: left;
 }
-
 footer {
     background-color: #022B3A;
     text-align: center;
@@ -119,7 +118,6 @@ footer {
 }
 /*TABLET */
 @media screen and (min-width: 60em) {
-
     h1 {
         font-size: 3.5rem;
     }
@@ -131,17 +129,14 @@ footer {
         align-items: center;
         gap: 20px;
     }
-
     .service img {
         width: 30%;
         margin: 0;
     }
-
     .service-text {
         width: 60%;
         font-size: 1.1rem;
     }
-
     .review {
         width: 70%;
         margin: 15px auto;
