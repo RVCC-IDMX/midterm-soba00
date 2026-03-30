@@ -8,7 +8,7 @@ h1, h2, h3 {
     margin-top: 0;
 }
 h1 {
-    font-size: 60pt;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 section {
@@ -54,7 +54,7 @@ header {
     text-shadow: 2px 2px 4px rgba(0,0,0,.5);
     background-color: #022B3A;
     border: 3px solid #1F7A8C;
-    margin:0;
+    margin:  0 ;
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
@@ -116,4 +116,59 @@ footer {
     padding: 15px;
     font-size: 0.9rem;
     margin-top: 20px;
+}
+/*TABLET */
+@media screen and (min-width: 60em) {
+
+    h1 {
+        font-size: 3.5rem;
+    }
+    #hero img {
+    width: 250px;
+    }
+     .service {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .service img {
+        width: 30%;
+        margin: 0;
+    }
+
+    .service-text {
+        width: 60%;
+        font-size: 1.1rem;
+    }
+
+    .review {
+        width: 70%;
+        margin: 15px auto;
+    }
+}
+/*DESKTOP*/
+@media screen and (min-width: 80em) {
+     h1 {
+        font-size: 4.5rem;
+    }
+    .service img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .services-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .service {
+        width: 30%;
+        display: block;
+    }
+    .review {
+        width: 50%;
+    }
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
